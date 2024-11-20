@@ -660,13 +660,14 @@
 
     /*  */
     .navbar-toggler {
-        top: 55%;
-        right: 0;
+        top: 66%;
+        right: 22px;
         padding: 0;
         width: 32px;
         border: none;
         position: absolute;
         transform: translateY(-65%);
+        /* background-color: #0f0fed; */
     }
 
     .header-con .navbar-expand-lg .navbar-nav {

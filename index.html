@@ -65,7 +65,7 @@
 
 <!-- 导航栏 -->
 <!-- Header Start -->
-<header class="site-header ">
+<header class="site-header">
   <!--Navbar Start  -->
   <div class="header-bottom">
     <div class="container-md">
@@ -73,19 +73,22 @@
         <div class="col-lg-2">
           <!-- Sit Logo Start -->
           <div class="site-branding">
-            <a href="index.html" title="Softech">
+            <a href="index.html" class="mb-0">
               <img src="assets/images/logo1.png" alt="Logo">
             </a>
           </div>
           <!-- Sit Logo End -->
+
         </div>
         <div class="col-lg-10">
           <div class="header-menu">
             <nav class="main-navigation one">
               <div class="mobile-menu-box">
-                <i class="menu-background one top"></i>
-                <i class="menu-background one middle"></i>
-                <i class="menu-background one bottom"></i>
+              <!-- <div class="mobile-menu-box collapse navbar-collapse" id="navbarSupportedContent"> -->
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                <!-- <i class="menu-background one top"></i> -->
+                <!-- <i class="menu-background one middle"></i> -->
+                <!-- <i class="menu-background one bottom"></i> -->
                 <ul class="menu">
                   <li class="active">
                     <a class="link-underline link-underline-opacity-0" href="javascript:void(0);" title="Home">首页</a>
@@ -136,10 +139,31 @@
                       150-2263-7781</span></li>
 
                 </ul>
+
               </div>
             </nav>
           </div>
         </div>
+                   <!-- 隐藏按钮开始 -->
+                   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                   aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                   <span class="navbar-toggler-icon"></span>
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="mobile-menu-box collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="menu">
+                     <li class="dropdown active">
+                       <a class="nav-link dropdown-toggle p-0" href="shared.html" id="navbarDropdown3" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Home">首页</a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                         <a class="dropdown-item" href="shared.html">Shared</a>
+                       </div>
+                     </li>
+                   </ul>
+                 </div>
+                 <!-- 隐藏按钮结束 -->
       </div>
     </div>
   </div>
