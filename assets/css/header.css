@@ -63,7 +63,7 @@
     line-height: 24px;
     font-weight: 600;
     transition: 0.3s;
-   font-family: 'Epilogue', sans-serif;
+   font-family: "Microsoft YaHei" ,'Epilogue', sans-serif;
 }
 
 .main-navigation.one ul li a {
@@ -92,7 +92,7 @@
     top: 50%;
     right: 0;
     transform: translate(0,-50%);
-    font-family: 'FontAwesome';
+    font-family: "Microsoft YaHei" ,'FontAwesome';
     font-size: 16px;
     transition: 0.3s;
 }
@@ -224,7 +224,7 @@
     background-color: #ff6a32;
     font-size: 15px;
     color: #ffffff !important;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Microsoft YaHei" ,'Rubik', sans-serif;
     border-radius: 8px;
 }
 

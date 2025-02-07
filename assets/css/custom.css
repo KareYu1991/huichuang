@@ -36,7 +36,7 @@ Headings: "Montserrat", system-ui;
 */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap'); */
 
 * {
     margin: 0;
@@ -62,12 +62,20 @@ figure {
     margin: 0;
 }
 
+
+/* 字体设置 */
+/* @font-face {
+    font-family: "FZXBS";
+    src: url("../fonts/FZXBS-G.ttf") format('truetype');
+  } */
+
 body {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: var(--text-color);
-    font-family: "Nunito Sans", sans-serif;
+    /* font-family: "Nunito Sans", sans-serif; */
+    font-family: "Microsoft YaHei";
 }
 
 h1,
@@ -77,11 +85,11 @@ h4,
 h5,
 h6,
 span {
-    font-family: "Montserrat", system-ui;
+    font-family: "Microsoft YaHei" , "Montserrat", system-ui, sans-serif;
 }
 
 span.error {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Microsoft YaHei" , "Nunito Sans", sans-serif;
 }
 
 :root {
@@ -131,7 +139,7 @@ span.error {
     line-height: 12px;
     vertical-align: middle;
     margin-left: 3px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Microsoft YaHei" , "Nunito Sans", sans-serif;
     transition: ease-in-out 0.6s;
 }
 
@@ -353,7 +361,7 @@ span.error {
     content: "\f062";
     line-height: 50px;
     color: var(--secondary--color);
-    font-family: "Font Awesome 5 free";
+    font-family: "Microsoft YaHei" ,"Font Awesome 5 free";
 }
 
 
@@ -447,7 +455,7 @@ span.error {
 }
 
 .banner-con .banner-price span {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Microsoft YaHei" ,"Nunito Sans", sans-serif;
     font-weight: 300;
     font-size: 20px;
 }
@@ -460,7 +468,7 @@ span.error {
 .banner-con .banner-price {
     font-size: 20px;
     font-weight: 700;
-    font-family: "Montserrat", system-ui;
+    font-family: "Microsoft YaHei" ,"Montserrat", system-ui;
     margin-bottom: 39px;
 }
 
@@ -520,7 +528,7 @@ span.error {
 
 .welcome-company-con .welcome-box span.welcome-text {
     font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Microsoft YaHei" ,"Nunito Sans", sans-serif;
 }
 
 .welcome-company-con .welcome-company-inner-content a {
@@ -2110,7 +2118,7 @@ span.error {
     width: auto;
     font-size: 60px;
     /* font-family: "Nunito Sans", sans-serif; */
-    font-family: "Montserrat", system-ui;
+    font-family: "Microsoft YaHei" ,"Montserrat", system-ui;
     line-height: 70px;
     border-radius: 0;
     font-weight: 700;
